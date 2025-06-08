@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Script Loader For Cheat Engines</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Montserrat:wght@400;600&display=swap');
+
+  /* Reset & base */
+  * {
+    margin: 0; padding: 0; box-sizing: border-box;
+  }
+  body {
+    font-family: 'Montserrat', sans-serif;
+    background: linear-gradient(135deg, #6b4c1d, #a67c24, #d9b36e);
+    color: #3e2f1c;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+  }
+
+  /* Container */
+  .container {
+    max-width: 900px;
+    background: rgba(255 245 210 / 0.95);
+    border-radius: 25px;
+    padding: 2.5rem 3rem;
+    box-shadow:
+      0 0 20px 6px #b37c00cc,
+      inset 0 0 12px 4px #d9b36ecc;
+    overflow: hidden;
+    position: relative;
+  }
+
+  /* Header */
+  h1 {
+    font-family: 'Fredoka One', cursive;
+    font-size: 2.8rem;
+    color: #b37c00;
+    text-align: center;
+    margin-bottom: 1rem;
+    letter-spacing: 1.5px;
+    text-shadow:
+      0 0 8px #b37c00,
+      0 0 15px #d9b36e;
+    animation: glowPulse 3s infinite alternate ease-in-out;
+  }
+
+  @keyframes glowPulse {
+    from { text-shadow: 0 0 8px #b37c00, 0 0 15px #d9b36e; }
+    to { text-shadow: 0 0 15px #d9b36e, 0 0 30px #f1d488; }
+  }
+
+  /* Sections */
+  section {
+    margin-top: 2rem;
+    opacity: 0;
+    transform: translateY(30px);
+    animation: fadeSlideUp 0.8s forwards;
+  }
+  section:nth-of-type(1) { animation-delay: 0.3s; }
+  section:nth-of-type(2) { animation-delay: 0.6s; }
+  section:nth-of-type(3) { animation-delay: 0.9s; }
+  section:nth-of-type(4) { animation-delay: 1.2s; }
+  section:nth-of-type(5) { animation-delay: 1.5s; }
+  section:nth-of-type(6) { animation-delay: 1.8s; }
+
+  @keyframes fadeSlideUp {
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  /* Section Titles */
+  h2 {
+    font-weight: 600;
+    font-size: 1.8rem;
+    color: #a67c24;
+    margin-bottom: 0.6rem;
+    border-bottom: 2px solid #a67c24;
+    padding-bottom: 0.3rem;
+    letter-spacing: 0.7px;
+  }
+
+  /* Paragraphs */
+  p, li {
+    line-height: 1.6;
+    font-size: 1.05rem;
+    margin-bottom: 1rem;
+  }
+
+  /* Lists */
+  ul {
+    margin-left: 1.4rem;
+    margin-bottom: 1rem;
+  }
+  ul li {
+    margin-bottom: 0.4rem;
+    position: relative;
+    padding-left: 1.2rem;
+  }
+  ul li::before {
+    content: '🥔';
+    position: absolute;
+    left: 0;
+    top: 0;
+    font-size: 1.1rem;
+  }
+
+  /* Link button */
+  .btn-link {
+    display: inline-block;
+    padding: 0.9rem 2rem;
+    background: linear-gradient(135deg, #b37c00, #d9b36e);
+    color: #3e2f1c;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.1rem;
+    border-radius: 40px;
+    cursor: pointer;
+    box-shadow:
+      0 0 20px #b37c00,
+      0 0 40px #d9b36e;
+    transition: background 0.4s ease, box-shadow 0.4s ease;
+    text-decoration: none;
+    user-select: none;
+    text-align: center;
+  }
+  .btn-link:hover, .btn-link:focus {
+    background: linear-gradient(135deg, #d9b36e, #b37c00);
+    box-shadow:
+      0 0 30px #b37c00,
+      0 0 60px #d9b36e;
+    outline: none;
+  }
+
+  /* Code block style */
+  pre {
+    background: #7c5e22;
+    padding: 1rem 1.2rem;
+    border-radius: 12px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 0.95rem;
+    color: #f1d488;
+    box-shadow: inset 0 0 10px #b37c00aa;
+    overflow-x: auto;
+  }
+
+  /* Footer */
+  footer {
+    margin-top: 2.5rem;
+    font-size: 0.9rem;
+    color: #6b4c1d;
+    text-align: center;
+    font-style: italic;
+  }
+</style>
+</head>
+<body>
+
+<div class="container" role="main" aria-label="Cheat Engine Loader Readme">
+
+  <h1>Cheat Engine Loader<br><span style="font-size:1.2rem; color:#d9b36e;">( Script For "autoexecute" )</span><br>by PotatoKing</h1>
+
+  <section>
+    <h2>Features</h2>
+    <ul>
+      <li>Place ID Detection: Auto-detect BedWars or Baseplate game.</li>
+      <li>BedWars Support: Loads popular cheat engine scripts with sleek GUI.</li>
+      <li>Baseplate Support: Troll script prompt with option to prank.</li>
+      <li>Smooth Animations: Slide-in and glow effects for UI elements.</li>
+      <li>User Feedback: Notifications and copy-to-clipboard buttons.</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Supported Place IDs ( for now :3 still in develeopment )</h2>
+    <p><strong>BedWars:</strong></p>
+    <ul>
+      <li>6872265039</li>
+      <li>8444591321</li>
+    </ul>
+    <p><strong>Baseplate:</strong></p>
+    <ul>
+      <li>4483381587</li>
+      <li>17574618959</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>How It Works</h2>
+    <ol>
+      <li>Checks current game's PlaceId.</li>
+      <li>Executor checks "autoexecute" and executes the script</li>
+      <li>If your in any of the supported games you will get the scripts immediately</li>
+      <li>Have fun :D</li>
+    </ol>
+  </section>
+
+  <section>
+    <h2>Usage</h2>
+    <ol>
+      <li>Inject or paste the script into a Roblox executor.</li>
+      <li>Join a supported game.</li>
+      <li>Follow on-screen prompts to load cheats or trolls.</li>
+    </ol>
+  </section>
+
+  <section>
+    <h2>Credits</h2>
+    <p>Script by <strong>PotatoKing</strong></p>
+    <p>Cheat scripts loaded from external GitHub and Pastebin URLs.</p>
+  </section>
+
+  <section>
+    <h2>Notes &amp; License</h2>
+    <p>Use cheats responsibly. The troll script is meant for fun/pranks only.</p>
+    <p>This script is provided as-is without warranty. Use at your own risk.</p>
+    <p>i put this here becouse my github accout will get bricked 3:</p>
+  </section>
+
+  <section style="text-align:center; margin-top:2rem;">
+    <a 
+      href="https://raw.githubusercontent.com/potatokingz/robloxCheatLoader/refs/heads/main/loadstring" 
+      target="_blank" 
+      rel="noopener noreferrer" 
+      class="btn-link"
+      aria-label="Go to the loadstring script link"
+      title="Open Loadstring Script"
+    >
+      🥔 script 🥔
+    </a>
+  </section>
+
+  <footer>
+    🥔👑 Brought to you by PotatoKing (https://bit.ly/potatokingz) 🥔👑
+  </footer>
+
+</div>
+
+</body>
+</html>
