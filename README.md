@@ -1,6 +1,6 @@
 # Cheat Engine Loader (BedWars + Baseplate Detector) by PotatoKing
 
-This Roblox script automatically detects whether you are in a supported BedWars or Baseplate game and loads corresponding cheat or troll scripts with a polished GUI interface.
+This Roblox script automatically detects whether you are in a supported BedWars or Baseplate game and loads corresponding cheat or troll scripts with a polished GUI interface. --- MAKE SURE ITS IN AUTOEXECUTE
 
 ---
 
