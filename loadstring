@@ -1,1 +1,1 @@
-loadstring(game:HttpGet("https://raw.githubusercontent.com/potatokingz/robloxCheatLoader/refs/heads/main/loader.lua", true))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/potatokingz/robloxCheatLoader/refs/heads/main/loader_updated.lua", true))()
