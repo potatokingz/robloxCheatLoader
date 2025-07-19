@@ -1,9 +1,8 @@
 --[[
-    Final Personalized Version for Potato King - V4 (Feature Update)
+    Final Personalized Version for Potato King - V5 (URL FIX)
     - All credits remain for "Potato King" and "https://potatoking.net".
-    - ADDED: A script selection GUI for Blox Fruits to choose between "Bounty Hunting" and "Redz" scripts.
-    - ADDED: A close button ("X") to all loader GUIs to cancel script execution and hide the interface.
-    - Retains all previous fixes and features like debounce, improved error handling, and modern clipboard functions.
+    - FIXED: Updated the URLs for the Redz Hub and Bounty Hunting scripts in the Blox Fruits selector.
+    - Retains all previous features including the script selector, cancellable loaders, debounce, and error handling.
 ]]
 
 -- Game ID Tables
@@ -320,15 +319,17 @@ local function showBloxFruitsGui()
     label.TextColor3 = Color3.new(1, 1, 1); label.TextWrapped = true
 
     local btnSize = UDim2.new(0, 400, 0, 50)
-    createButton(frame, "Load Bounty Hunting (Zen Hub)", btnSize, UDim2.new(0.5, -200, 0, 100), function()
+    
+    -- ### UPDATED URL ###
+    createButton(frame, "Load Bounty Hunting Script", btnSize, UDim2.new(0.5, -200, 0, 100), function()
         animateOutAndDestroy(gui)
-        -- Using a known Zen Hub loader URL
-        createLoaderGui("Bounty Hunting", "Potato King", "https://raw.githubusercontent.com/Kaizenofficiall/ZenHub/main/Loader.lua")
+        createLoaderGui("Bounty Hunting", "Potato King", "https://pastebin.com/raw/ms6xUMyL")
     end)
 
-    createButton(frame, "Load Redz Script", btnSize, UDim2.new(0.5, -200, 0, 170), function()
+    -- ### UPDATED URL ###
+    createButton(frame, "Load Redz Hub", btnSize, UDim2.new(0.5, -200, 0, 170), function()
         animateOutAndDestroy(gui)
-        createLoaderGui("Redz Script", "Potato King", "https://pastebin.com/raw/ms6xUMyL")
+        createLoaderGui("Redz Hub", "Potato King", "https://raw.githubusercontent.com/tlredz/Scripts/refs/heads/main/main.luau")
     end)
     
     local closeButton = createButton(frame, "X", UDim2.new(0, 30, 0, 30), UDim2.new(1, -40, 0, 10), function()
