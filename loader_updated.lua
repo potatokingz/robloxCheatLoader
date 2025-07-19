@@ -34,7 +34,7 @@ local brookhavenIds = {
 local bloxFruitsIds = {
     [2753915549] = true, -- First Sea
     [4442272183] = true, -- Second Sea
-    [7445497627] = true  -- Third Sea
+    [7449423635] = true  -- Third Sea
 }
 
 -- ### FIX: Corrected Game ID ###
