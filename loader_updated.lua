@@ -310,7 +310,8 @@ elseif mm2Ids[game.PlaceId] then
 elseif brookhavenIds[game.PlaceId] then
 	createLoaderGui("Brookhaven", "Potato King", "https://raw.githubusercontent.com/TheDarkoneMarcillisePex/Other-Scripts/main/Brook%20Haven%20Gui")
 elseif bloxFruitsIds[game.PlaceId] then
-    createLoaderGui("Blox Fruits", "Potato King", "https://raw.githubusercontent.com/tlredz/Scripts/refs/heads/main/main.luau")
+    -- ### THIS IS THE MODIFIED LINE ###
+    createLoaderGui("Blox Fruits", "Potato King", "https://pastebin.com/raw/ms6xUMyL")
 elseif growAGardenIds[game.PlaceId] then
     createLoaderGui("Grow a Garden", "Potato King", "https://raw.githubusercontent.com/orinc-dev/scripts/main/grow-a-garden-orinc")
 else
