@@ -1,1 +1,362 @@
-([[This file was protected with MoonSec V3]]):gsub('.+', (function(a) _ORmVtDVrpmUO = a; end)); return(function(u,...)local s;local d;local o;local t;local a;local r;local n=24915;local e=0;local l={};while e<893 do e=e+1;while e<0x33c and n%0x16f2<0xb79 do e=e+1 n=(n*570)%22813 local f=e+n if(n%0x10e0)<0x870 then n=(n*0x322)%0x5413 while e<0x182 and n%0x982<0x4c1 do e=e+1 n=(n+31)%2917 local t=e+n if(n%0x4db4)>=0x26da then n=(n+0x3d)%0x8c45 local n=43558 if not l[n]then l[n]=0x1 end elseif n%2~=0 then n=(n-0x1f0)%0x644f local n=70155 if not l[n]then l[n]=0x1 d=(not d)and _ENV or d;end else n=(n-0x135)%0x155e e=e+1 local n=21668 if not l[n]then l[n]=0x1 d=getfenv and getfenv();end end end elseif n%2~=0 then n=(n+0x351)%0x1a30 while e<0x216 and n%0xff4<0x7fa do e=e+1 n=(n-468)%43468 local d=e+n if(n%0x3614)>=0x1b0a then n=(n*0x38a)%0x6af5 local n=31303 if not l[n]then l[n]=0x1 r="\4\8\116\111\110\117\109\98\101\114\86\95\116\87\65\73\89\98\0\6\115\116\114\105\110\103\4\99\104\97\114\72\85\101\79\106\76\66\95\0\6\115\116\114\105\110\103\3\115\117\98\83\122\122\101\71\76\110\104\0\6\115\116\114\105\110\103\4\98\121\116\101\72\109\74\87\113\86\101\77\0\5\116\97\98\108\101\6\99\111\110\99\97\116\101\86\98\113\116\121\97\90\0\5\116\97\98\108\101\6\105\110\115\101\114\116\118\114\104\109\101\81\65\71\5";end elseif n%2~=0 then n=(n-0x31e)%0x755d local n=86920 if not l[n]then l[n]=0x1 a=string;end else n=(n-0x8b)%0x7d2d e=e+1 local n=45377 if not l[n]then l[n]=0x1 o={};end end end else n=(n*0xae)%0xbdb6 e=e+1 while e<0x162 and n%0x181a<0xc0d do e=e+1 n=(n*300)%27141 local r=e+n if(n%0x3404)>=0x1a02 then n=(n*0x27b)%0x6405 local n=39630 if not l[n]then l[n]=0x1 s=tonumber;end elseif n%2~=0 then n=(n+0x1cd)%0xc1fc local n=64633 if not l[n]then l[n]=0x1 end else n=(n+0x2e8)%0x8239 e=e+1 local n=82493 if not l[n]then l[n]=0x1 t=function(l)local n=0x01 local function e(e)n=n+e return l:sub(n-e,n-0x01)end while true do local l=e(0x01)if(l=="\5")then break end local n=a.byte(e(0x01))local n=e(n)if l=="\2"then n=o.V_tWAIYb(n)elseif l=="\3"then n=n~="\0"elseif l=="\6"then d[n]=function(n,e)return u(8,nil,u,e,n)end elseif l=="\4"then n=d[n]elseif l=="\0"then n=d[n][e(a.byte(e(0x01)))];end local e=e(0x08)o[e]=n end end end end end end end n=(n*559)%40310 end t(r);local n={};for e=0x0,0xff do local l=o.HUeOjLB_(e);n[e]=l;n[l]=e;end local function c(e)return n[e];end local a=(function(r,a)local f,l=0x01,0x10 local e={{},{},{}}local d=-0x01 local n=0x01 local t=r while true do e[0x03][o.SzzeGLnh(a,n,(function()n=f+n return n-0x01 end)())]=(function()d=d+0x01 return d end)()if d==(0x0f)then d=""l=0x000 break end end local d=#a while n<d+0x01 do e[0x02][l]=o.SzzeGLnh(a,n,(function()n=f+n return n-0x01 end)())l=l+0x01 if l%0x02==0x00 then l=0x00 o.vrhmeQAG(e[0x01],(c((((e[0x03][e[0x02][0x00]]or 0x00)*0x10)+(e[0x03][e[0x02][0x01]]or 0x00)+t)%0x100)));t=r+t;end end return o.eVbqtyaZ(e[0x01])end);t(a(207,"oSTIVp4L7nU!NW_aI4"));t(a(35,"orv28sw<n/!?}&ap&&}eM!an}2/<</8p}/jwp8}/!/n8w%2pR<p}&&?nwsOvaEvnpn&2??/n<ns?r/p/ps?vn&<wpv&2r?p!}a?m/2sMr}v}&w}r/</8<#a8}<rrap}!/anGsw&rrwa<&<!2nssk2ppw&aa<}8/pw/av}2E/&!}!/?rss/va,}p}&r?qsa8Z8pr8&w!p/wv!Tps2vvXaa8?/!swpspv/j<aa}8!!n<8w82r<a}}v?nvnmn28vEp?a/}r!r2ps}r2r!}??4!&<}sp&s?v5v}/!a/w<=v&u&Uja&/n!2<ra/}s&!pr!2!?wsww2/%sppw!8?/8w}8&v?#w&!?}/vsXv<Hsa<a?}s<?snp>&vraan}w!&n2Fr8&v2Ov&7!p/8s<v<2vA4&}}p<pw8pv&rr&p2&v!4<pw8vsp/&?&8/p< snsn}v!3an}</?<&wJr2R<}s}snaw?<rvr?s/8&a!&/rw<8v2b&&}w}}nLnv2}8rp!nrwv!n</w/2!?8pv&s?s/v<v2a^vAp&s/!!*s<va}!"));local n=(-16785+(function()local o,l=0,1;(function(n,e,l,d)e(l(n,l,n,e),n(d,d,d,n)and l(l,n,n and d,e),d(d,e,l,e),n(n and l,l and d,e,e))end)(function(t,e,n,d)if o>192 then return e end o=o+1 l=(l+502)%47272 if(l%1034)<517 then l=(l+854)%46790 return d else return n(t(t,e,t,d and e),e(e,e,d,n)and d(t,n,t,d),t(n,t,n,d and n),e(n,n,n,d))end return n(e(t and n,t and n,n,d),t(e,e,d,t)and e(e,t,e,d),d(n,e and d,d and d,n and e),t(d and t,n,n,e))end,function(t,n,e,d)if o>391 then return t end o=o+1 l=(l*750)%16967 if(l%754)>=377 then l=(l-280)%41559 return d else return e(t(n,e,t,d),n(e,n,d,n),n(e,e,d and d,e),n(n,t,n,n))end return d(e(e and d,n and e,d,t),t(e,n,e,n),d(e and d,d,t,d),n(e,t,t and n,e))end,function(e,d,t,n)if o>475 then return d end o=o+1 l=(l*428)%42635 if(l%1694)<=847 then return t else return e(e(n,e and n,e,t)and e(d and d,e,e,e),d(n,n,n and t,t)and t(d,d,t,d),d(d and n,d,e and e,t),e(d,d,n,n)and n(e and t,n,n and n,n and n))end return e(t(e,e,n,n and t),d(d,n,n,d),t(n and n,t,n and d,n),e(n,t,n,e and t))end,function(e,d,t,n)if o>174 then return d end o=o+1 l=(l-25)%9483 if(l%1408)<=704 then return n else return e(e(n,t,n,t)and e(n,e,e,d),n(e,e,d,t)and t(e,t,n,d),e(n,e,e,d),n(n,t,t,t))end return d(t(d,e and n,d,e),d(n,e,d,n and n),t(n,d,t and t,t)and n(e,d,n,n),d(e and d,d and t,d,n))end)return l;end)())local en=(getfenv)or(function()return _ENV end);local c=o.OFKgUITw or o.QDrcbxKS;local r=4;local g=1;local t=3;local d=2;local function m(y,...)local h=a(n,"f/kw1.Bh<>Yy FxK K>Q.<kWxYy1h<19A<whK> F<FKkF/<71</)k.TKFh>x1yk.xyYKBy.1/YF>YBBhwyF< /<11 /.xB</h 11WYBkwkKmy<<sy1hKw>81FyY1BYk>KByh/YwYY<hJw<B<w 31 <>wkkFKYhykB>1h B h>/B1kQK.YY<.1yn.FY>wBhkxK y.<B.1FBFwYhBFKh;{ h>11>k1xhYyh/wxKKFY<>. k YK>k<w1BH1FR><hmk<n?y<<k1w/kFwBhhkkFKB y1K.*/.F>Y1hyKKu. />/.xxhKwYy<k1//dF .xB1w.x>.k/Kx%Y<hT<:h1w D_>K<.. yk>K1PL<FVx  <>/BwF<xBy/h wF VFK>/ByxQK< k<h.1_FFwY B.k y} K<>. /<><<FhhwKCByw<F.wF<FBhy/kx.Y0B<w9.h#KFYyFBx.1x  BYYhrw.x.Yhk-x<y5h<1K&<Fm><Bjw1Kuy<<;1>/;F<YRhYw/K< a<<.k/<x*Y<<k1d&C <>P.Kk{x<yc>x.<g<Fb><BBk<K/y<<B1</1xIY(B<wOKx !<>.L/ x<Y<h=w<ch <>/.<k0KByZh<16l>FJ><BzwYKhy<<R1</wF<YpB<1k). (<>.b/>x_Y<hL.</F <>/.<k/x<y.h<.kgyF:>yBDk Kmy<<o1</xF<Y/B<wwK< Z<<.nkyx=Y<h?w<u; Y>z.<kKx<y_h<1/_<F/><BEkyKay<<b1>/sF<YjB<");local e=0;o.ouVYxXVb(function()o.qQTjzHvg()e=e+1 end)local function n(l,n)if n then return e end;e=l+e;end local l,e,f=u(0,u,n,h,o.HmJWqVeM);local function a()local e,l=o.HmJWqVeM(h,n(1,3),n(5,6)+2);n(2);return(l*256)+e;end;local k=true;local k=0 local function p()local d=e();local n=e();local t=1;local d=(l(n,1,20)*(2^32))+d;local e=l(n,21,31);local n=((-1)^l(n,32));if(e==0)then if(d==k)then return n*0;else e=1;t=0;end;elseif(e==2047)then return(d==0)and(n*(1/0))or(n*(0/0));end;return o.rCHzbGCM(n,e-1023)*(t+(d/(2^52)));end;local b=e;local function m(e)local l;if(not e)then e=b();if(e==0)then return'';end;end;l=o.SzzeGLnh(h,n(1,3),n(5,6)+e-1);n(e)local n=""for e=(1+k),#l do n=n..o.SzzeGLnh(l,e,e)end return n;end;local k=#o.HBCHolEE(s('\49.\48'))~=1 local n=e;local function ln(...)return{...},o.DPyPuRzV('#',...)end local function z()local s={};local n={};local h={};local u={s,h,nil,n};local n=e()local c={}for d=1,n do local l=f();local e;if(l==1)then e=(f()~=#{});elseif(l==0)then local n=p();if k and o.VhBMyywd(o.HBCHolEE(n),'.(\48+)$')then n=o.aHxaIrLF(n);end e=n;elseif(l==2)then e=m();end;c[d]=e;end;for n=1,e()do h[n-(#{1})]=z();end;for h=1,e()do local n=f();if(l(n,1,1)==0)then local o=l(n,2,3);local f=l(n,4,6);local n={a(),a(),nil,nil};if(o==0)then n[t]=a();n[r]=a();elseif(o==#{1})then n[t]=e();elseif(o==y[2])then n[t]=e()-(2^16)elseif(o==y[3])then n[t]=e()-(2^16)n[r]=a();end;if(l(f,1,1)==1)then n[d]=c[n[d]]end if(l(f,2,2)==1)then n[t]=c[n[t]]end if(l(f,3,3)==1)then n[r]=c[n[r]]end s[h]=n;end end;u[3]=f();return u;end;local function m(l,n,e)local d=n;local d=e;return s(o.VhBMyywd(o.VhBMyywd(({o.ouVYxXVb(l)})[2],n),e))end local function nn(b,n,h)local function nn(...)local f,j,y,z,s,l,a,m,p,k,_,e;local n=0;while-1<n do if 2>=n then if 1>n then f=u(6,60,1,27,b);j=u(6,39,2,55,b);else if n>1 then l=-41;a=-1;else y=u(6,27,3,69,b);s=ln z=0;end end else if n>4 then if n~=3 then repeat if n>5 then n=-2;break;end;e=u(7);until true;else n=-2;end else if 4==n then k=o.DPyPuRzV('#',...)-1;_={};else m={};p={...};end end end n=n+1;end;for n=0,k do if(n>=y)then m[n-y]=p[n+1];else e[n]=p[n+1];end;end;local n=k-y+1 local n;local o;local function u(...)while true do end end while true do if l<-40 then l=l+42 end n=f[l];o=n[g];if 12<=o then if 18>o then if o<15 then if 12>=o then for o=0,3 do if 1<o then if 0<o then repeat if o<3 then e[n[d]]=h[n[t]];l=l+1;n=f[l];break;end;if(e[n[d]]==n[r])then l=l+1;else l=n[t];end;until true;else if(e[n[d]]==n[r])then l=l+1;else l=n[t];end;end else if o<1 then e[n[d]]=(n[t]~=0);l=l+1;n=f[l];else h[n[t]]=e[n[d]];l=l+1;n=f[l];end end end else if 14~=o then local o,y,p,k,u;e[n[d]]=h[n[t]];l=l+1;n=f[l];o=n[d];y=e[n[t]];e[o+1]=y;e[o]=y[n[r]];l=l+1;n=f[l];e(n[d],n[t]);l=l+1;n=f[l];o=n[d]p,k=s(e[o](c(e,o+1,n[t])))a=k+o-1 u=0;for n=o,a do u=u+1;e[n]=p[u];end;l=l+1;n=f[l];o=n[d]e[o]=e[o](c(e,o+1,a))l=l+1;n=f[l];e[n[d]]();l=l+1;n=f[l];do return end;else do return end;end end else if 16<=o then if o>=15 then repeat if o~=16 then e[n[d]]();break;end;h[n[t]]=e[n[d]];until true;else h[n[t]]=e[n[d]];end else e[n[d]]=(n[t]~=0);end end else if o>=21 then if 22<=o then if 23>o then local n=n[d]e[n]=e[n](c(e,n+1,a))else local d=n[d];local l=e[n[t]];e[d+1]=l;e[d]=l[n[r]];end else do return end;end else if 18<o then if o==19 then h[n[t]]=e[n[d]];else local l=n[d]local d,n=s(e[l](c(e,l+1,n[t])))a=n+l-1 local n=0;for l=l,a do n=n+1;e[l]=d[n];end;end else l=n[t];end end end else if o>5 then if o<9 then if o>=7 then if o~=6 then repeat if 8>o then e[n[d]]=h[n[t]];break;end;l=n[t];until true;else l=n[t];end else e[n[d]]=(n[t]~=0);end else if o>=10 then if 8<=o then repeat if 10<o then e[n[d]]();break;end;e(n[d],n[t]);until true;else e[n[d]]();end else e(n[d],n[t]);end end else if o>2 then if o>=4 then if o~=3 then for l=23,86 do if o>4 then e[n[d]]=h[n[t]];break;end;local l=n[d]local d,n=s(e[l](c(e,l+1,n[t])))a=n+l-1 local n=0;for l=l,a do n=n+1;e[l]=d[n];end;break;end;else local l=n[d]local d,n=s(e[l](c(e,l+1,n[t])))a=n+l-1 local n=0;for l=l,a do n=n+1;e[l]=d[n];end;end else local d=n[d];local l=e[n[t]];e[d+1]=l;e[d]=l[n[r]];end else if o>=1 then if o==2 then if(e[n[d]]==n[r])then l=l+1;else l=n[t];end;else local n=n[d]e[n]=e[n](c(e,n+1,a))end else if(e[n[d]]==n[r])then l=l+1;else l=n[t];end;end end end end l=1+l;end;end;return nn end;local d=0xff;local h={};local a=(1);local t='';(function(e)local l=e local r=0x00 local n=0x00 l={(function(o)if r>0x20 then return o end r=r+1 n=(n+0xa11-o)%0x22 return(n%0x03==0x0 and(function(l)if not e[l]then n=n+0x01 e[l]=(0xa);d[2]=(d[2]*(m(function()h()end,c(t))-m(d[1],c(t))))+1;h[a]={};d=d[2];a=a+d;end return true end)'QEIjg'and l[0x3](0x232+o))or(n%0x03==0x1 and(function(l)if not e[l]then n=n+0x01 e[l]=(0x88);h[a]=en();a=a+d;end return true end)'ouZuR'and l[0x2](o+0x1f5))or(n%0x03==0x2 and(function(l)if not e[l]then n=n+0x01 e[l]=(0x5);end return true end)'sMPQA'and l[0x1](o+0x7d))or o end),(function(d)if r>0x28 then return d end r=r+1 n=(n+0x11c4-d)%0x38 return(n%0x03==0x0 and(function(l)if not e[l]then n=n+0x01 e[l]=(0x1c);end return true end)'cDxUf'and l[0x3](0x274+d))or(n%0x03==0x2 and(function(l)if not e[l]then n=n+0x01 e[l]=(0xd7);end return true end)'ohRDE'and l[0x1](d+0x216))or(n%0x03==0x1 and(function(l)if not e[l]then n=n+0x01 e[l]=(0x5d);end return true end)'DuoYR'and l[0x2](d+0x304))or d end),(function(f)if r>0x2a then return f end r=r+1 n=(n+0x575-f)%0x1a return(n%0x03==0x1 and(function(l)if not e[l]then n=n+0x01 e[l]=(0x48);end return true end)'Cvcsm'and l[0x2](0xeb+f))or(n%0x03==0x0 and(function(l)if not e[l]then n=n+0x01 e[l]=(0x82);t={t..'\58 a',t};h[a]=z();a=a+((not o.nmoZrvtD)and 1 or 0);t[1]='\58'..t[1];d[2]=0xff;end return true end)'KKEuh'and l[0x1](f+0x271))or(n%0x03==0x2 and(function(l)if not e[l]then n=n+0x01 e[l]=(0x75);t='\37';d={function()d()end};t=t..'\100\43';end return true end)'ygApT'and l[0x3](f+0x17a))or f end)}l[0x3](0x121f)end){};local n=nn(c(h));return n(...);end return m((function()local e={}local n=0x01;local l;if o.nmoZrvtD then l=o.nmoZrvtD(m)else l=''end if o.VhBMyywd(l,o.TCvCQJji)then n=n+0;else n=n+1;end e[n]=0x02;e[e[n]+0x01]=0x03;return e;end)(),...)end)((function(l,n,e,t,d,o)local o;if 4<=l then if 5<l then if l>=7 then if l>7 then do return e(l,nil,e);end else do return setmetatable({},{['__\99\97\108\108']=function(n,l,d,t,e)if e then return n[e]elseif t then return n else n[l]=d end end})end end else do return d[e]end;end else if 4==l then local l=t;local r,o,a=d(2);do return function()local t,e,n,d=n(e,l(l,l),l(l,l)+3);l(4);return(d*r)+(n*o)+(e*a)+t;end;end;else local l=t;do return function()local n=n(e,l(l,l),l(l,l));l(1);return n;end;end;end end else if l>=2 then if-1<l then repeat if l~=2 then do return n(1),n(4,d,t,e,n),n(5,d,t,e)end;break;end;do return 16777216,65536,256 end;until true;else do return n(1),n(4,d,t,e,n),n(5,d,t,e)end;end else if 0~=l then do return function(e,n,l)if l then local n=(e/2^(n-1))%2^((l-1)-(n-1)+1);return n-n%1;else local n=2^(n-1);return(e%(n+n)>=n)and 1 or 0;end;end;end;else do return n(1),n(4,d,t,e,n),n(5,d,t,e)end;end end end end),...)
+--[[
+    Final Personalized Version for Potato King - V5 (URL FIX)
+    - All credits remain for "Potato King" and "https://potatoking.net".
+    - FIXED: Updated the URLs for the Redz Hub and Bounty Hunting scripts in the Blox Fruits selector.
+    - Retains all previous features including the script selector, cancellable loaders, debounce, and error handling.
+]]
+
+-- Game ID Tables
+local bedwarsIds = {
+    [6872265039] = true, -- Lobby
+    [8444591321] = true, -- Game (normal)
+    [8560631822] = true, -- Game Mega
+    [8560630086] = true, -- Game Micro
+    [6872274481] = true, -- real
+}
+
+local baseplateIds = {
+    [4483381587] = true,
+    [17574618959] = true
+}
+
+local arsenalIds = {
+    [286090429] = true
+}
+
+local mm2Ids = {
+    [142823291] = true
+}
+
+local brookhavenIds = {
+    [4924922222] = true
+}
+
+local bloxFruitsIds = {
+    [2753915549] = true, -- First Sea
+    [4442272183] = true, -- Second Sea
+    [7449423635] = true  -- Third Sea
+}
+
+local growAGardenIds = {
+    [10321728347] = true -- Correct, verified Main Game ID
+}
+
+
+-- Roblox Services
+local TweenService = game:GetService("TweenService")
+local CoreGui = game:GetService("CoreGui")
+local StarterGui = game:GetService("StarterGui")
+local UserInputService = game:GetService("UserInputService")
+
+-- Animation settings
+local ANIM_SPEED = 0.4
+local EASE_STYLE = Enum.EasingStyle.Quint
+local EASE_DIR_IN = Enum.EasingDirection.Out
+local EASE_DIR_OUT = Enum.EasingDirection.In
+
+-- Debounce flag to prevent multiple GUIs
+local isGuiActive = false
+
+-- Helper Functions
+local function animateOutAndDestroy(gui)
+    if not gui or not gui:IsA("ScreenGui") or not gui.Parent then return end
+    
+    local frame = gui:FindFirstChildOfClass("Frame")
+    if frame then
+        local endPos = UDim2.new(frame.Position.X.Scale, frame.Position.X.Offset, -1, 0)
+        local tween = TweenService:Create(frame, TweenInfo.new(ANIM_SPEED, EASE_STYLE, EASE_DIR_OUT), {Position = endPos, BackgroundTransparency = 1})
+        tween:Play()
+        tween.Completed:Wait()
+    end
+    gui:Destroy()
+    isGuiActive = false -- Reset debounce flag
+end
+
+local function clearGui(name)
+    local existing = CoreGui:FindFirstChild(name)
+    if existing then
+        animateOutAndDestroy(existing)
+    end
+end
+
+local function createStyledFrame(parent, size, startPosition, endPosition)
+    local frame = Instance.new("Frame", parent)
+    frame.Size = size
+    frame.Position = startPosition
+    frame.BackgroundColor3 = Color3.fromRGB(28, 28, 32)
+    frame.BorderSizePixel = 0
+    frame.BackgroundTransparency = 1
+    Instance.new("UICorner", frame).CornerRadius = UDim.new(0, 12)
+
+    local gradient = Instance.new("UIGradient", frame)
+    gradient.Color = ColorSequence.new({
+        ColorSequenceKeypoint.new(0, Color3.fromRGB(45, 45, 55)),
+        ColorSequenceKeypoint.new(1, Color3.fromRGB(25, 25, 30))
+    })
+    gradient.Rotation = 90
+    
+    TweenService:Create(frame, TweenInfo.new(ANIM_SPEED, EASE_STYLE, EASE_DIR_IN), {Position = endPosition, BackgroundTransparency = 0.1}):Play()
+
+    return frame
+end
+
+local function createButton(parent, text, size, position, callback)
+    local button = Instance.new("TextButton", parent)
+    button.Size = size
+    button.Position = position
+    local originalColor = Color3.fromRGB(80, 80, 90)
+    button.BackgroundColor3 = originalColor
+    button.Text = text
+    button.Font = Enum.Font.SourceSansBold
+    button.TextColor3 = Color3.new(1, 1, 1)
+    button.TextScaled = true
+    Instance.new("UICorner", button).CornerRadius = UDim.new(0, 8)
+    
+    local hoverTweenInfo = TweenInfo.new(0.2, Enum.EasingStyle.Quad)
+    local hoverColor = originalColor:Lerp(Color3.new(1,1,1), 0.2)
+
+    button.MouseEnter:Connect(function() TweenService:Create(button, hoverTweenInfo, {BackgroundColor3 = hoverColor, Size = size * 1.05}):Play() end)
+    button.MouseLeave:Connect(function() TweenService:Create(button, hoverTweenInfo, {BackgroundColor3 = originalColor, Size = size}):Play() end)
+    button.MouseButton1Down:Connect(function() TweenService:Create(button, hoverTweenInfo, {Size = size * 0.95}):Play() end)
+    button.MouseButton1Up:Connect(function() TweenService:Create(button, hoverTweenInfo, {Size = size}):Play() end)
+    
+    if callback then button.MouseButton1Click:Connect(callback) end
+    
+    return button
+end
+
+local function secureLoadstring(url)
+    local success, scriptContent = pcall(function() return game:HttpGet(url, true) end)
+    
+    if success and scriptContent then
+        local success_load, err = pcall(loadstring(scriptContent))
+        if not success_load then
+            warn("Loadstring execution error:", err)
+            StarterGui:SetCore("SendNotification", { Title = "Script Error", Text = "The script failed to execute.", Duration = 5 })
+        end
+    else
+        warn("Failed to get script from URL:", url)
+        StarterGui:SetCore("SendNotification", { Title = "Network Error", Text = "Could not load script. The source may be down.", Duration = 5 })
+    end
+end
+
+-- GUI Functions
+
+local function createLoaderGui(titleText, creditText, scriptUrl)
+    if isGuiActive then return end
+    isGuiActive = true
+    clearGui("CheatEngineLoader")
+
+    local gui = Instance.new("ScreenGui", CoreGui)
+    gui.Name = "CheatEngineLoader"
+    gui.ZIndexBehavior = Enum.ZIndexBehavior.Global
+
+    local isCancelled = false -- Flag to track if loading was cancelled
+
+    local frame = createStyledFrame(gui, UDim2.new(0, 420, 0, 200), UDim2.new(0.5, -210, -0.5, 0), UDim2.new(0.5, -210, 0.5, -100))
+    
+    -- Close button to cancel loading
+    local closeButton = createButton(frame, "X", UDim2.new(0, 30, 0, 30), UDim2.new(1, -40, 0, 10), function()
+        isCancelled = true
+        animateOutAndDestroy(gui)
+    end)
+    closeButton.BackgroundColor3 = Color3.fromRGB(255, 80, 80)
+    
+    local elementsToFade = {}
+
+    local title = Instance.new("TextLabel", frame)
+    title.Size = UDim2.new(1, -50, 0, 90); title.Position = UDim2.new(0, 25, 0, 10)
+    title.BackgroundTransparency = 1; title.Text = "Loading " .. titleText .. " Scripts..."
+    title.Font = Enum.Font.FredokaOne; title.TextScaled = true
+    title.TextColor3 = Color3.new(1, 1, 1); title.TextTransparency = 1
+    table.insert(elementsToFade, title)
+
+    local credit = Instance.new("TextLabel", frame)
+    credit.Size = UDim2.new(1, -20, 0, 30); credit.Position = UDim2.new(0, 10, 0, 105)
+    credit.BackgroundTransparency = 1; credit.Font = Enum.Font.SourceSans
+    credit.Text = "Script by " .. creditText; credit.TextColor3 = Color3.fromRGB(255, 255, 200)
+    credit.TextScaled = true; credit.TextTransparency = 1
+    table.insert(elementsToFade, credit)
+
+    local copyButton = createButton(frame, "Copy: https://potatoking.net", UDim2.new(0, 320, 0, 40), UDim2.new(0.5, -160, 0, 140), function()
+        pcall(function() UserInputService:SetClipboardAsync("https://potatoking.net") end)
+        StarterGui:SetCore("SendNotification", { Title = "Copied!", Text = "Link copied to clipboard", Duration = 3 })
+    end)
+    copyButton.BackgroundTransparency = 1; copyButton.TextTransparency = 1
+    table.insert(elementsToFade, copyButton)
+
+    task.wait(ANIM_SPEED)
+    for _, element in ipairs(elementsToFade) do
+        TweenService:Create(element, TweenInfo.new(0.5), {TextTransparency = 0}):Play()
+        if element:IsA("TextButton") then
+            TweenService:Create(element, TweenInfo.new(0.5), {BackgroundTransparency = 0}):Play()
+        end
+        task.wait(0.1)
+    end
+    
+    task.wait(2)
+
+    -- Only load the script if the user hasn't cancelled
+    if not isCancelled then
+        secureLoadstring(scriptUrl)
+        title.Text = "Scripts loaded. Cheat responsibly."
+
+        task.delay(1.5, function()
+            -- Check if GUI still exists before trying to destroy it
+            if gui and gui.Parent then
+                animateOutAndDestroy(gui)
+            end
+        end)
+    else
+        print("Script loading cancelled by user.")
+    end
+end
+
+local function showUnsupportedGui()
+	if isGuiActive then return end; isGuiActive = true
+	clearGui("UnsupportedGameGUI")
+	
+	local gui = Instance.new("ScreenGui", CoreGui)
+	gui.Name = "UnsupportedGameGUI"
+    gui.ZIndexBehavior = Enum.ZIndexBehavior.Global
+
+	local frame = createStyledFrame(gui, UDim2.new(0, 500, 0, 310), UDim2.new(0.5, -250, -0.5, 0), UDim2.new(0.5, -250, 0.5, -155))
+
+	local title = Instance.new("TextLabel", frame)
+	title.Size = UDim2.new(1, 0, 0, 50); title.Position = UDim2.new(0, 0, 0, 10)
+	title.BackgroundTransparency = 1; title.Text = "Unsupported Game"
+	title.Font = Enum.Font.FredokaOne; title.TextScaled = true
+	title.TextColor3 = Color3.fromRGB(255, 80, 80)
+
+	local closeButton = createButton(frame, "X", UDim2.new(0, 30, 0, 30), UDim2.new(1, -40, 0, 10), function()
+		animateOutAndDestroy(gui)
+	end)
+    closeButton.BackgroundColor3 = Color3.fromRGB(255, 80, 80)
+    
+	local statusBox = Instance.new("TextLabel", frame)
+	statusBox.Size = UDim2.new(1, -40, 0, 30); statusBox.Position = UDim2.new(0.5, -230, 0, 120)
+	statusBox.BackgroundColor3 = Color3.fromRGB(40, 40, 45); statusBox.TextColor3 = Color3.fromRGB(200, 200, 200)
+	statusBox.Font = Enum.Font.Code; statusBox.TextSize = 16; statusBox.Text = "Executed Infinite Yield"
+	Instance.new("UICorner", statusBox).CornerRadius = UDim.new(0, 8)
+
+	local scroll = Instance.new("ScrollingFrame", frame)
+	scroll.Size = UDim2.new(1, -40, 0, 0); scroll.Position = UDim2.new(0.5, -230, 0, 160)
+	scroll.BackgroundTransparency = 0.8; scroll.BackgroundColor3 = Color3.fromRGB(20, 20, 25)
+	scroll.CanvasSize = UDim2.new(0, 0, 0, 170); scroll.ScrollBarThickness = 4
+    scroll.ClipsDescendants = true
+	Instance.new("UICorner", scroll).CornerRadius = UDim.new(0, 10)
+
+    local scrollOpen = false
+    local scrollTweenInfo = TweenInfo.new(0.3, Enum.EasingStyle.Cubic)
+    
+    local toggleButton = createButton(frame, "Show Supported Games", UDim2.new(0, 400, 0, 40), UDim2.new(0.5, -200, 0, 70), function()
+        scrollOpen = not scrollOpen
+        local goalSize = scrollOpen and UDim2.new(1, -40, 0, 130) or UDim2.new(1, -40, 0, 0)
+        TweenService:Create(scroll, scrollTweenInfo, {Size = goalSize}):Play()
+        toggleButton.Text = scrollOpen and "Hide Supported Games" or "Show Supported Games"
+    end)
+
+	local text = Instance.new("TextLabel", scroll)
+	text.Size = UDim2.new(1, -10, 0, 170); text.Position = UDim2.new(0, 5, 0, 0)
+	text.BackgroundTransparency = 1; text.Font = Enum.Font.SourceSans
+	text.TextColor3 = Color3.new(1, 1, 1); text.TextSize = 18
+	text.TextXAlignment = Enum.TextXAlignment.Left; text.TextYAlignment = Enum.TextYAlignment.Top
+	text.TextWrapped = true
+	text.Text = "✅ Blox Fruits (All Seas)\n✅ Bedwars\n✅ Arsenal\n✅ MM2\n✅ Brookhaven\n✅ Baseplates\nMore Coming Soon! :D"
+
+	secureLoadstring("https://rawscripts.net/raw/Universal-Script-Infinite-Yield-31802")
+end
+
+local function showTrollGui()
+	if isGuiActive then return end; isGuiActive = true
+	clearGui("TrollPromptGUI")
+	
+	local gui = Instance.new("ScreenGui", CoreGui)
+	gui.Name = "TrollPromptGUI"
+    gui.ZIndexBehavior = Enum.ZIndexBehavior.Global
+
+	local frame = createStyledFrame(gui, UDim2.new(0, 450, 0, 220), UDim2.new(0.5, -225, 1.2, 0), UDim2.new(0.5, -225, 0.5, -110))
+
+	local label = Instance.new("TextLabel", frame)
+	label.Size = UDim2.new(1, -20, 0, 120); label.Position = UDim2.new(0, 10, 0, 10)
+	label.BackgroundTransparency = 1; label.Text = "You've entered a baseplate game.\nWould you like to load the Troll Scripts?"
+	label.Font = Enum.Font.FredokaOne; label.TextScaled = true
+	label.TextColor3 = Color3.new(1, 1, 1); label.TextWrapped = true
+
+	createButton(frame, "Load Troll Scripts", UDim2.new(0, 320, 0, 50), UDim2.new(0.5, -160, 0, 140), function()
+        animateOutAndDestroy(gui)
+		secureLoadstring("https://pastebin.com/raw/BeD6acHx")
+	end)
+
+    local closeButton = createButton(frame, "X", UDim2.new(0, 30, 0, 30), UDim2.new(1, -40, 0, 10), function()
+		animateOutAndDestroy(gui)
+	end)
+    closeButton.BackgroundColor3 = Color3.fromRGB(200, 60, 60)
+
+	local glow = Instance.new("UIStroke", frame)
+	glow.Thickness = 3; glow.Color = Color3.fromRGB(255, 0, 120); glow.Transparency = 1
+    
+    task.wait(ANIM_SPEED)
+    local glowTween = TweenService:Create(glow, TweenInfo.new(1, Enum.EasingStyle.Sine, Enum.EasingDirection.InOut, -1, true), {Transparency = 0.4})
+    glowTween:Play()
+    gui.Destroying:Connect(function() glowTween:Cancel() end)
+end
+
+local function showBloxFruitsGui()
+    if isGuiActive then return end; isGuiActive = true
+    clearGui("BloxFruitsSelectorGUI")
+    
+    local gui = Instance.new("ScreenGui", CoreGui)
+    gui.Name = "BloxFruitsSelectorGUI"
+    gui.ZIndexBehavior = Enum.ZIndexBehavior.Global
+
+    local frame = createStyledFrame(gui, UDim2.new(0, 480, 0, 260), UDim2.new(0.5, -240, -0.5, 0), UDim2.new(0.5, -240, 0.5, -130))
+
+    local label = Instance.new("TextLabel", frame)
+    label.Size = UDim2.new(1, -20, 0, 80); label.Position = UDim2.new(0, 10, 0, 10)
+    label.BackgroundTransparency = 1; label.Text = "Blox Fruits Script Selector"
+    label.Font = Enum.Font.FredokaOne; label.TextScaled = true
+    label.TextColor3 = Color3.new(1, 1, 1); label.TextWrapped = true
+
+    local btnSize = UDim2.new(0, 400, 0, 50)
+    
+    -- ### UPDATED URL ###
+    createButton(frame, "Load Bounty Hunting Script", btnSize, UDim2.new(0.5, -200, 0, 100), function()
+        animateOutAndDestroy(gui)
+        createLoaderGui("Bounty Hunting", "Potato King", "https://pastebin.com/raw/ms6xUMyL")
+    end)
+
+    -- ### UPDATED URL ###
+    createButton(frame, "Load Redz Hub", btnSize, UDim2.new(0.5, -200, 0, 170), function()
+        animateOutAndDestroy(gui)
+        createLoaderGui("Redz Hub", "Potato King", "https://raw.githubusercontent.com/tlredz/Scripts/refs/heads/main/main.luau")
+    end)
+    
+    local closeButton = createButton(frame, "X", UDim2.new(0, 30, 0, 30), UDim2.new(1, -40, 0, 10), function()
+        animateOutAndDestroy(gui)
+    end)
+    closeButton.BackgroundColor3 = Color3.fromRGB(200, 60, 60)
+end
+
+-- Main Entry Point
+if isGuiActive then
+    print("Script halted: A GUI is already active.")
+else
+    if bedwarsIds[game.PlaceId] then
+        createLoaderGui("Bedwars", "Potato King", "https://pastebin.com/raw/j6eDE4im")
+    elseif baseplateIds[game.PlaceId] then
+        showTrollGui()
+    elseif arsenalIds[game.PlaceId] then
+        createLoaderGui("Arsenal", "Potato King", "https://pastebin.com/raw/pGcShZi1")
+    elseif mm2Ids[game.PlaceId] then
+        createLoaderGui("MM2", "Potato King", "https://pastebin.com/raw/K7s997bZ")
+    elseif brookhavenIds[game.PlaceId] then
+        createLoaderGui("Brookhaven", "Potato King", "https://raw.githubusercontent.com/TheDarkoneMarcillisePex/Other-Scripts/main/Brook%20Haven%20Gui")
+    elseif bloxFruitsIds[game.PlaceId] then
+        showBloxFruitsGui() -- Show the selection menu for Blox Fruits
+    elseif growAGardenIds[game.PlaceId] then
+        createLoaderGui("Grow a Garden", "Potato King", "https://raw.githubusercontent.com/orinc-dev/scripts/main/grow-a-garden-orinc")
+    else
+        showUnsupportedGui()
+    end
+end
