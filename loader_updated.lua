@@ -343,7 +343,7 @@ if isGuiActive then
     print("Script halted: A GUI is already active.")
 else
     if bedwarsIds[game.PlaceId] then
-        createLoaderGui("Bedwars", "Potato King", "https://pastebin.com/raw/j6eDE4im")
+        createLoaderGui("Bedwars", "Potato King", "https://pastebin.com/raw/CbB2Jjvv")
     elseif baseplateIds[game.PlaceId] then
         showTrollGui()
     elseif arsenalIds[game.PlaceId] then
